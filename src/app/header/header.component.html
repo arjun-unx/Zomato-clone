@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+        <a class="navbar-brand" [routerLink]="['/Delivery']">
+            <img src="https://theme.zdassets.com/theme_assets/219316/ca65d4b0417dec6fa903cc5fadfd0ad9bbc93ce0.png"
+                width="160" height="60">
+        </a>
+        <a class="nav-link dropdown-toggle" style="color:rgb(121, 121, 121);text-decoration: none;" href="#"
+            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><button
+                class="btn" type="submit"><img src="assets/icons/search.svg" width="15" height="20"
+                    class="img"></button>Chennai</a>
+
+        <div class="nav-item">
+            <div class="search">
+                <button class="btn" type="submit"><img src="assets/icons/searchbtn.svg" width="20" height="20"
+                        class="img"></button>
+                <input type="text" class="search-input" placeholder="Search for a restaurant,cuisine and dishes">
+            </div>
+        </div>
+    </div>
+</nav>
+<button class="btn toto disabled" data-toggle="modal" data-target="#sem-login">
+    <p style="font-size: 120%;" [routerLink]="['/Login']">Log in</p>
+</button>
+<button class="btn yoyo disabled" data-toggle="modal" data-target="#sem-reg">
+    <p style="font-size: 120%;" [routerLink]="['/Signup']">Sign up</p>
+</button>

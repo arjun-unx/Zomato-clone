@@ -1,0 +1,299 @@
+*{
+    overflow: hidden;
+}
+.momo{
+  padding:10px 10px 0px;
+  background-color:white;
+  margin-top: -40px;
+  
+}
+.row{
+  left: 10px;
+}
+.rounded-circle
+  {
+    border: 2px solid rgb(248, 244, 243);
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 10px 0px;
+  }
+  .customNextBtn:hover,.customPreviousBtn:hover{
+    transition: 0.3s;
+    transform: translateX(-3px) translateY(-0px);
+    border: 2px solid lightcoral;
+  } 
+  .image {
+
+    width: 370px;
+    height: 300px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+   }
+
+  .ooo{
+    border-radius: 10px;
+  }
+ .btnsleft {
+  top: 140px;
+  left: 80px;
+  width: 145px;
+  max-width: 145px;
+}
+.btnsright {
+  top: 130px;
+  bottom: 0px;
+  right: 70px;
+  max-width: 135px;
+}
+
+.customPreviousBtn {
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  padding-left: 15px;
+  position: relative;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+}
+.customNextBtn {
+  width: 50px;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 20px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+}
+/* .customNextBtn:hover,
+.customPreviousBtn:hover {
+  transition: 0.3s;
+  transform: translateX(-3px) translateY(-0px);
+} */
+
+.cindex {
+  z-index: 0;
+}
+#portfolio {
+  padding: 30px;
+  margin: 0 auto;
+  margin-right: -35px;
+}
+
+.gallery-title {
+  font-size: 36px;
+  color: rgb(15, 148, 182);
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px;
+}
+span{
+  color: black;
+}
+.filter-button {
+  font-size: 16px;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 7px;
+  text-align: center;
+  color: rgb(139, 139, 139);
+  margin-bottom: 30px;
+  margin: 10px;
+  margin-left: auto;
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background-color: lightcoral;
+
+}
+.hide{
+    visibility: hidden;
+}
+/*----------------------------------- Carsouel 2 in Nutrition--------------------------------------------------*/
+.wowo{
+  padding:10px 10px 0px;
+  background-color: white;
+  margin-top: 31px;
+  
+}
+.NextBtn:hover,.PreBtn:hover{
+  transition: 0.3s;
+  transform: translateX(-3px) translateY(-0px);
+  border: 2px solid lightcoral;
+} 
+.im {
+
+  width: 400px;
+  height: 240px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+ }
+
+.ooo{
+  border-radius: 10px;
+}
+.Bleft {
+top: 60px;
+left: 80px;
+width: 145px;
+max-width: 145px;
+}
+.Bright {
+top: 60px;
+bottom: 0px;
+right: 70px;
+max-width: 135px;
+}
+
+.PreBtn {
+float: left;
+width: 50px;
+height: 50px;
+line-height: 50px;
+font-weight: bold;
+padding-left: 15px;
+position: relative;
+border-radius: 50%;
+color: rgb(0, 0, 0);
+background: #ffffff;
+}
+.NextBtn {
+width: 50px;
+float: right;
+height: 50px;
+line-height: 50px;
+font-weight: bold;
+position: relative;
+padding-left: 20px;
+border-radius: 50%;
+color: rgb(0, 0, 0);
+background: #ffffff;
+}
+.cindex {
+  z-index: 0;
+}
+div.owl-nav.disabled {
+  visibility: hidden;
+  display: none;
+}
+/*------------------------------------ Products Row ------------------------------------------------------*/
+.card-deck{
+  padding: 30px;
+  padding-left: 140px;
+      margin: 0 auto;
+      margin-top: -55px;
+}
+.card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  width:365px; 
+  background-color: rgb(247, 242, 243);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(182, 181, 181, 0.2), 0 6px 20px 0 rgba(184, 183, 183, 0.2);
+  width: 150px;
+  border-radius:15px ;
+  margin-top: 30px;
+  border: none;
+}
+.Vegsymbol{
+  width: 0.9rem;
+  height: 0.9rem;
+  border: 1px solid rgb(80, 181, 71);
+  border-radius: 2px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  flex-shrink: 0;
+}
+.smallcircle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: rgb(80, 181, 71);
+  border-radius: 50%;
+}
+.headng {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: rgb(28, 28, 28);
+  margin: 0.4rem 0px 0.2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h6 {
+  display: block;
+  font-size: 0.2em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.content {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0px;
+  color: rgb(105, 105, 105);
+  min-height: 6.3rem;
+  max-height: 6.3rem;
+  overflow: hidden;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.line{
+  margin: 1.2rem 0px;
+  margin-top: -20px;
+  width: 100%;
+  border: 1px solid rgb(248, 248, 248);
+}
+.rate {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.stricked {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0px 0.5rem 0px 0px;
+    color: rgb(105, 105, 105);
+    text-decoration: line-through;
+}
+.realrate {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0px 0.5rem 0px 0px;
+  color: rgb(28, 28, 28);
+  font-weight: 600;
+}
+.total{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0px;
+  color: rgb(105, 105, 105);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+a:hover,a{
+  text-decoration: none;
+}

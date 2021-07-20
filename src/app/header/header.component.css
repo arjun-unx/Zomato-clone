@@ -1,0 +1,49 @@
+.nav-link{
+    display: inline;
+    margin-top: 10px;
+    border: 0px solid red;
+    border-radius: 3%;
+    border-right: 0px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .nav-item{
+    list-style:none;
+    display: inline;
+    margin-right: 49%;
+    margin-top: 10px;
+    border: 0px solid red;
+    border-radius: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 56px;
+    margin-left: 1px;
+    border-left: 0px solid black;
+    padding-top: 6px;
+    padding-right: 115px;
+  }
+  .btn{
+    display: inline;
+  }
+  input[type=text]{
+    width: 150%;
+    display: inline;
+    border: 0px solid red;
+    position: relative;
+    top: -30px;
+    left: 40px; 
+  } 
+  .toto{
+    position: relative;
+    left: 75%;
+    top: -60px;
+  } 
+  .yoyo{
+    position: relative;
+    left: 77%;
+    top: -60px;
+  } 
+  button{
+    outline:none!important;
+    box-shadow: none!important;
+
+}

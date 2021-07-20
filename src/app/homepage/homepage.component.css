@@ -1,0 +1,70 @@
+   html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    #header-img {
+        position: relative;
+        width: 100vw;
+        height: 500px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://c4.wallpaperflare.com/wallpaper/120/369/297/cuisine-food-india-indian-wallpaper-preview.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header{
+        width:100vw;
+        height:60px;
+    }
+    .nav-menu{
+        width:60vw;
+        height:60px;
+    }
+    .zomato{
+        display:block;
+        font-weight: bolder;
+        color:white;
+        text-align: center;
+        font-size: 68px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .header-flex{
+            margin-top: 100px;
+        }
+        .nav-link{
+            border-bottom: 0px solid black;
+            transition: border-bottom 0.3s;
+            cursor: pointer;
+        }
+        .nav-link:hover{
+            border-bottom: 5px solid white;
+
+        }
+        .search-box{
+            width: 30vw;
+            height: 60px;
+            background-color: white;
+            border:none;
+            border-top-left-radius: 20px ;
+            border-bottom-left-radius: 20px;
+            padding-left: 20px;
+            outline: none;
+            font-weight: bold;
+            font-size: 18px;
+       }
+       .search-btn{
+           width: 130px;
+           background-color: red;
+           color: white;
+           border: none;
+           border-top-right-radius: 20px ;
+           border-bottom-right-radius: 20px;
+           font-weight: bold;
+           font-style: 20px;
+
+       }

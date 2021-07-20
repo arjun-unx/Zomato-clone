@@ -1,0 +1,186 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.boxing .inputBox{
+  position: relative;
+  width: 406px;
+  height:55px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.boxing .inputBox:last-child{
+  margin-bottom: 0px;
+}
+.boxing .inputBox .loc{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 32%;
+  border: 2px solid rgb(209, 204, 204);
+  border-right: none;
+  background: transparent;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  color:black;
+  font-weight: 300px;
+}
+.boxing .inputBox .num{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 73%;
+  border: 2px solid rgb(209, 204, 204);
+  border-left: none;
+  background: transparent;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  color:black;
+  font-weight: 300px;
+}
+.boxing .inputBox span{
+position: absolute;
+top:1px;
+left:1px;
+padding: 9px;
+display: inline-block; 
+font-size: 18px;
+  color:rgb(209, 204, 204);;
+  font-weight: 300px;
+  transition: 0.5s;
+  pointer-events: none;
+} 
+
+.vl {
+  border-left: 1px solid rgb(163, 162, 162);
+  height: 25px;
+  margin-top: -26px;
+  margin-left: 105px;
+}
+.seminor-login-modal-body .close{
+  position: relative;
+  top: -45px;
+  left: 10px;
+ color: #1cd8ad;
+ }
+ .seminor-login-modal-body .close{
+     opacity:0.75;
+ }
+ 
+ .seminor-login-modal-body .close:focus, .seminor-login-modal-body .close:hover {
+     color: #39e8b0;
+  opacity: 1;
+  text-decoration: none;
+  outline:0;
+ }
+ 
+ .seminor-login-modal .modal-dialog .modal-content{
+     border-radius:7px;
+ }
+ 
+ /* form animation */
+ .seminor-login-form .form-group {
+   position: relative;
+   margin-bottom: 1.5em !important;
+ }
+ .seminor-login-form .form-control{
+  border: 0px solid #ced4da !important;
+  border-bottom:1px solid #adadad !important;
+  border-radius:0 !important;
+ }
+ .seminor-login-form .form-control:focus, .seminor-login-form .form-control:active{
+  outline:none !important;
+  outline-width: 0;
+  border-color: #adadad !important;
+  box-shadow: 0 0 0 0.2rem transparent;
+ }
+ *:focus {
+  outline: none;
+ }
+ .seminor-login-form{
+  padding: 2em 0 0;
+ }
+ 
+ .form-control-placeholder {
+ position: absolute;
+ top: 0;
+ padding: 7px 0 0 13px;
+ transition: all 200ms;
+ opacity: 0.5;
+ border-top: 0px;
+ border-left: 0;
+ border-right: 0;
+ }
+ 
+ .form-control:focus + .form-control-placeholder,
+ .form-control:valid + .form-control-placeholder {
+ font-size: 75%;
+ -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+ opacity: 1;
+ }
+
+ .btn-check-log .btn-check-login {
+  font-size: 16px;
+  padding: 10px 0;
+ }
+ button.btn-check-login:focus {
+  color: #fff;
+  background-color: rgb(247, 123, 123);
+  border: 2px solid rgb(247, 123, 123);
+}
+.btn-check-login,.btn-check-google {
+margin-left: 5px;
+display: inline-block;
+padding: 12px 0;
+margin-bottom: 0;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border-radius: 5px;
+width: 98%;
+color:white;
+background-color: rgb(216, 216, 216);
+border: 1px solid rgb(216, 216, 216);
+}
+
+.btn-check-google{
+color:rgb(124, 124, 124);
+background-color:white;
+border: 1px solid rgb(197, 197, 197);
+}
+
+ .text-primary-fau {
+     color: #1959a2;
+ }
+ 
+ .select-form-control-placeholder{
+   font-size: 100%;
+     padding: 7px 0 0 13px;
+     margin: 0;
+ }
+ 
+.modal
+{
+  overflow-y: scroll;
+}
+.modal-content{
+  width:450px;
+  height: 458px;
+}
+a:hover,a{
+  color: salmon;
+  text-decoration: none;
+}
